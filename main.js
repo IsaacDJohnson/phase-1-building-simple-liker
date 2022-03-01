@@ -3,8 +3,19 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
+const heart = document.querySelector("like")
 
+heart.document.addEventListener("click", function(){
+  return fetch(mimicServerCall())
+  .then(function (response){
 
+  })
+  .catch(() => {
+    const error = document.querySelector('hidden')
+    error.remove()
+  })
+
+})
 
 
 //------------------------------------------------------------------------------
